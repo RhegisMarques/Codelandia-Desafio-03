@@ -79,81 +79,107 @@ html, body
   }
 
   
-  .main
+  .corpo
   {
-    padding: 75px 20px;    
+    padding: 75px 20px;
+       
     
   }
 
-  .cardRed
-  {    
-    width: 375px;
-    height: 222px;
-    
+  .card
+  {
+    border: 1px solid red;
+   
+  }
 
-    background: #FF6363;   
+  .bkgRed
+  {  
+    border: 1px solid black;
+    width: 100%;
+    height: 220px;   
+
+    background: #FF6363;
+    padding-bottom: 24px;   
   
   }
 
-  .cardRed
-  {    
-    width: 375px;
-    height: 222px;
+  .cardTitle > h2
+  {
     
+   
+    width: 185px;
+    height: 30px;
+    left: 52px;
+    top: 1121px;
 
-    background: #FF6363;   
-  
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #2B2B2B;
+    
+    
+  }
+  .cardTitle > p
+  {
+   
+    
+    width: 311px;
+    height: 90px;
+    left: 52px;
+    top: 1177px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+
+    color: #555555;
   }
 
-  .cardCiano
-  {    
-    width: 375px;
-    height: 222px;
-    
+  .rodape
+  {
+    width: 100%;   
 
-    background: #63ECFF;   
-  
+    background: #D7D5FF;
   }
 
-  
-  .cardPurpple
-  {    
-    width: 375px;
-    height: 222px;
+  .rTitle > h1
+  {
     
 
-    background: #F363FF;   
-  
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;    
+    text-align: center;
+
+    color: #2B2B2B;
+
   }
 
-  .cardGreen
-  {    
-    width: 375px;
-    height: 222px;
-    
+  .submit
+  {
+    width: 100%;
+    height: 50px;
+    border: none;
 
-    background: #63FF73;   
-  
-  }
+    background: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    } 
 
-  .cardYellow
-  {    
-    width: 375px;
-    height: 222px;
-    
-
-    background: #FFDD63;   
-  
-  }
-
-  .cardBlue
-  {    
-    width: 375px;
-    height: 222px;
-    
-    background: #6663FF;   
-  
-  } 
+ 
 
 
   
