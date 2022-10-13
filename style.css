@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
 *
 {
   margin: 0 auto;
@@ -13,19 +15,30 @@ html, body
   
   .cabecalho
   {
-    
-    width: 420px;
-    height: 800px;
-    padding: 55px 20px 88px 20px;
-
+       
+    padding: 55px 20px ;
     background: #D7D5FF;
+    
+  }
+
+  .subCabecalho
+  {
+    
+  }
+
+  .bkgImg
+  {
+    
+    margin-top: 151px;
+    width: 100%;
+    height: 250px;
+    background-image: url("/img/imagem.svg");
+    background-repeat: no-repeat ;
+    background-size: contain;
   }
   .tTitle > h1
   {
     margin-bottom: 18px;
-
-    
-
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
@@ -35,31 +48,26 @@ html, body
     color: #2B2B2B;
   }
 
-  .dTitle > p
+  .tTitle > p
   {
-    margin-bottom: 32px;
-    
-    
-
+    margin-bottom: 18px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    
-
     color: #555555;
+
   }
+  
   .button > input
   {
-    position: absolute;
     height: 50px;
-    width: 155px;
-    left: 20px;
-    top: 296px;
+    width: 155px;    
     border-radius: 5px;
+    border: none;
     background: #6C63FF;
-    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    
     border-radius: 5px;    
     font-family: 'Lato';
     font-style: normal;
@@ -70,30 +78,84 @@ html, body
     color: #FFFFFF;
   }
 
-  .imgBkg > img
+  
+  .main
   {
-    position: absolute;
-    width: 100%;
-    height: 460px;
-    top: 460px;
-    right: 32px;
-    bottom: 88px;
-    left: 32px;
+    padding: 75px 20px;    
     
   }
 
-  .corpo
-  {
+  .cardRed
+  {    
+    width: 375px;
+    height: 222px;
     
-  }
 
-  .corpo > rRed
-  {
-    
-    
+    background: #FF6363;   
   
   }
 
+  .cardRed
+  {    
+    width: 375px;
+    height: 222px;
+    
 
+    background: #FF6363;   
+  
+  }
+
+  .cardCiano
+  {    
+    width: 375px;
+    height: 222px;
+    
+
+    background: #63ECFF;   
+  
+  }
+
+  
+  .cardPurpple
+  {    
+    width: 375px;
+    height: 222px;
+    
+
+    background: #F363FF;   
+  
+  }
+
+  .cardGreen
+  {    
+    width: 375px;
+    height: 222px;
+    
+
+    background: #63FF73;   
+  
+  }
+
+  .cardYellow
+  {    
+    width: 375px;
+    height: 222px;
+    
+
+    background: #FFDD63;   
+  
+  }
+
+  .cardBlue
+  {    
+    width: 375px;
+    height: 222px;
+    
+    background: #6663FF;   
+  
+  } 
+
+
+  
 
 }
