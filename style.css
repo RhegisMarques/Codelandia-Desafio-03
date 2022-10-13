@@ -1,0 +1,99 @@
+*
+{
+  margin: 0 auto;
+}
+
+html, body
+{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 420px) {
+  
+  .cabecalho
+  {
+    
+    width: 420px;
+    height: 800px;
+    padding: 55px 20px 88px 20px;
+
+    background: #D7D5FF;
+  }
+  .tTitle > h1
+  {
+    margin-bottom: 18px;
+
+    
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;   
+
+    color: #2B2B2B;
+  }
+
+  .dTitle > p
+  {
+    margin-bottom: 32px;
+    
+    
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    
+
+    color: #555555;
+  }
+  .button > input
+  {
+    position: absolute;
+    height: 50px;
+    width: 155px;
+    left: 20px;
+    top: 296px;
+    border-radius: 5px;
+    background: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+  }
+
+  .imgBkg > img
+  {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    top: 460px;
+    right: 32px;
+    bottom: 88px;
+    left: 32px;
+    
+  }
+
+  .corpo
+  {
+    
+  }
+
+  .corpo > rRed
+  {
+    
+    
+  
+  }
+
+
+
+}
