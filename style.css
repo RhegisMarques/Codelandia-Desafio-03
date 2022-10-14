@@ -1,112 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap");
 
-*
-{
+* {
   margin: 0 auto;
 }
 
-html, body
-{
+html,
+body {
   width: 100%;
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 420px) {
-  
-  .cabecalho
-  {
-       
-    padding: 55px 20px ;
-    background: #D7D5FF;
-    
+  .cabecalho {
+    padding: 55px 20px;
+    background: #d7d5ff;
   }
 
-  
-  .bkgImg
-  {
-    
+  .bkgImg {
     margin-top: 151px;
     width: 100%;
     height: 250px;
     background-image: url("/img/imagem.svg");
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: contain;
   }
-  .tTitle > h1
-  {
+  .tTitle > h1 {
     margin-bottom: 18px;
-    font-family: 'Merriweather';
+    font-family: "Merriweather";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 47px;   
+    line-height: 47px;
 
-    color: #2B2B2B;
+    color: #2b2b2b;
   }
 
-  .tTitle > p
-  {
+  .tTitle > p {
     margin-bottom: 18px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     color: #555555;
-
   }
-  
-  .button > input
-  {
+
+  .button > input {
     height: 50px;
-    width: 155px;    
+    width: 155px;
     border-radius: 5px;
     border: none;
-    background: #6C63FF;
-    
-    border-radius: 5px;    
-    font-family: 'Lato';
+    background: #6c63ff;
+
+    border-radius: 5px;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    
-    color: #FFFFFF;
+
+    color: #ffffff;
   }
 
-  
-  .corpo
-  {
-      padding: 75px 20px;
+  .corpo {
+    padding: 75px 20px;
   }
 
-  .card
-  {
-    margin-bottom: 30px;    
-    background: #FFFFFF;
+  .card {
+    margin-bottom: 30px;
+    background: #ebeaea;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-   
   }
 
-  .cardTitle > h2
-  {
-    padding-left: 32px; 
-    padding-top: 24px; 
-    font-family: 'Merriweather';
+  .cardTitle > h2 {
+    padding-left: 32px;
+    padding-top: 24px;
+    font-family: "Merriweather";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    color: #2B2B2B;
-    
-    
+    color: #2b2b2b;
   }
-  .cardTitle > p
-  {
-    padding: 26px 32px;       
+  .cardTitle > p {
+    padding: 26px 32px;
     height: 90px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -114,91 +93,102 @@ html, body
     color: #555555;
   }
 
-  .rodape
-  {
-    width: 100%;   
-
-    background: #D7D5FF;
+  .bkgRed {
+    height: 220px;
+    background: #ff6363;
   }
 
-  .rTitle > h1
-  {
-    
+  .bkgCiano {
+    height: 220px;
+    background: #63ecff;
+  }
 
-    font-family: 'Merriweather';
+  .bkgPurple {
+    height: 220px;
+    background: #f363ff;
+  }
+
+  .bkgGreen {
+    height: 220px;
+    background: #63ff73;
+  }
+
+  .bkgYellow {
+    height: 220px;
+    background: #ffdd63;
+  }
+
+  .bkgBlue {
+    height: 220px;
+    background: #6663ff;
+  }
+
+  .rodape {
+    background: #d7d5ff;
+    padding: 83px 20px 56px;
+  }
+
+  .rodape > h1 {
+    padding-bottom: 36px;
+    font-family: "Merriweather";
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;    
+    font-size: 30px;
+    line-height: 40px;
     text-align: center;
 
-    color: #2B2B2B;
-
+    color: #2b2b2b;
   }
 
-  .submit
-  {
+  input {
+    padding-left: 12px;
+    margin-bottom: 20px;
     width: 100%;
-    height: 50px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 5px;
     border: none;
 
-    background: #6C63FF;
+    /*text*/
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .formText {
+    padding-left: 12px;
+    padding-top: 20px;
+    width: 100%;
+    height: 150px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+
+    /* text */
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .submit {
+    width: 100%;
+    margin-top: 45px;
+    height: 50px;
+    border: none;
+    background: #6c63ff;
     box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
     border-radius: 5px;
+
+    /* text */
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
   }
-
-  .bkgRed
-  {      
-    height: 220px;
-    background: #FF6363;
-      
-  
-  }
-
-  .bkgCiano
-  {      
-    height: 220px;
-    background: #63ECFF;
-      
-  
-  }
-
-  .bkgPurple
-  {      
-    height: 220px;
-    background: #F363FF;
-      
-  
-  }
-
-  .bkgGreen
-  {      
-    height: 220px;
-    background: #63FF73;
-      
-  
-  }
-
-  .bkgYellow
-  {      
-    height: 220px;
-    background: #FFDD63;
-      
-  
-  }
-
-  .bkgBlue
-  {      
-    height: 220px;
-    background: #6663FF;
-      
-  
-  }
-
-
- 
-
-
-  
-
 }
