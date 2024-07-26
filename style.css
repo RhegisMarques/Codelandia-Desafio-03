@@ -8,151 +8,203 @@
 html,
 body {
   width: 100%;
-  background: #f3f3f3cc;
-  
-  
 }
 
 .header {
-  height: 560px;
-  display: flex;
-  background: #d7d5ff;
+  max-width: 375px;
+  height: 643px;
+  display: block;
+  padding: 64px 24px;
+  background: #f8f8ff;
 }
 
-.subHeader {
-  padding: 137px 131px;
+.container {
+  display: grid;
+  width: 327px;
+  height: 515px;
+  gap: 24px;
 }
 
-.bkgImg {
-  width: 100%;
-  height: 360px;
-  background-image: url("/img/imagem.svg");
+.bgImg {
+  width: 207px;
+  height: 240px;
+  background-image: url("/img/illustra.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
-  margin: 87px 104px;
-}
-.tTitle > h1 {
-  width: 389px;
-  margin-bottom: 18px;
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 47px;
-
-  color: #2b2b2b;
 }
 
-.tTitle > p {
-  width: 389px;
-  font-family: "Lato";
-  font-style: normal;
+.group {
+  display: grid;
+  width: 327px;
+  height: 251px;
+  gap: 24px;
+}
+
+.group > h1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: center;
+}
+
+span {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: center;
+  color: #846aff;
+}
+
+.group > p {
+  font-family: Roboto;
+  font-size: 16px;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 32px;
-  color: #555555;
+  line-height: 24px;
+  text-align: center;
 }
 
 .button > input {
-  margin-top: 32px;
-  height: 50px;
-  width: 155px;
+  width: 327px;
+  height: 44px;
   border-radius: 5px;
   border: none;
   background: #6c63ff;
-
-  border-radius: 5px;
-  font-family: "Lato";
-  font-style: normal;
+  /*text*/
+  font-family: Roboto;
+  font-size: 14px;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  line-height: 16.41px;
+  text-align: center;
+  text-transform: uppercase;
 
   color: #ffffff;
 }
 
-.main { 
-  padding-top: 120px;
-  padding-bottom: 150px;
+.main {
+  height: 2318px;
+  top: 643px;
+  padding: 64px 0px;
+  gap: 113px;
+  /* 
+  display: block; */
+}
+
+.card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background: #ffff;
+  height: 2190px;
+  gap: 40px;
+}
+
+.card-container h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.13px;
+  text-align: left;
+}
+
+.cards {
+  display: grid;
+  height: 2122px;
+  gap: 32px;
+}
+
+.card {
+  width: 327px;
+  height: 327px;
+  border-radius: 8px;
+  border: 2px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.438);
+}
+
+.card-title {
+  display: grid;
+  width: 327px;
+  height: 152px;
+}
+
+.card-title h2 {
+  width: 291px;
+  height: 44px;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+}
+
+.card-title p {
+  width: 291px;
+  height: 44px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.card-1 {
+  width: 327px;
+  height: 175px;
+  border-radius: 4px 4px;
+  background-image: url("/img/image-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-2 {
+  width: 327px;
+  height: 175px;
+  border-radius: 4px 4px;
+  background-image: url("/img/image-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-3 {
+  width: 327px;
+  height: 175px;
+  border-radius: 4px 4px;
+  background-image: url("/img/image-3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-4 {
+  width: 327px;
+  height: 175px;
+  border-radius: 4px 4px;
+  background-image: url("/img/image-4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-5 {
+  width: 327px;
+  height: 175px;
+  border-radius: 4px 4px;
+  background-image: url("/img/image-5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-6 {
+  width: 327px;
+  height: 175px;
+  border-radius: 4px 4px;
+  background-image: url("/img/image-6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rodape{
   
 }
-
-.card { 
-  margin-top:68px ; 
-  width: 340px;
-  height: 423px;
-  background: #ffffff;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
-.cardTitle > h2 {
-  padding-left: 32px;
-  padding-top: 24px;
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  color: #2b2b2b;
-}
-.cardTitle > p {
-  padding: 26px 32px;
-  height: 90px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 30px;
-  color: #555555;
-}
-
-.bkgRed {
-  width: 340px;
-  height: 220px;
-  background: #ff6363;
-}
-
-.bkgCiano {
-  width: 340px;
-  height: 220px;
-  background: #63ecff;
-}
-
-.bkgPurple {
-  width: 340px;
-  height: 220px;
-  background: #f363ff;
-}
-
-.bkgGreen {
-  width: 340px;
-  height: 220px;
-  background: #63ff73;
-}
-
-.bkgYellow {
-  width: 340px;
-  height: 220px;
-  background: #ffdd63;
-}
-
-.bkgBlue {
-  width: 340px;
-  height: 220px;
-  background: #6663ff;
-}
-
-.rodape {
-  background: #d7d5ff;
-  padding: 83px 485px;
-}
-
 .rodape > h1 {
-  padding-bottom: 60px;
+  padding-bottom: 36px;
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
@@ -167,7 +219,7 @@ input {
   padding-left: 12px;
   margin-bottom: 20px;
   width: 100%;
-  height: 65px;
+  height: 60px;
   background: #ffffff;
   border-radius: 5px;
   border: none;
@@ -215,199 +267,65 @@ input {
   color: #ffffff;
 }
 
-@media screen and (max-width: 420px){
-
+@media screen and (max-width: 1080px) {
   .header {
-    width: 100%;
-    height: 800px;
-    display: block;
-    padding: 55px 20px;
-    background: #d7d5ff;
   }
 
-  .subHeader {      
-    
-    padding: 0;    
-    margin: 0;
+  .subHeader {
   }
 
-  .tTitle > h1 {    
-    width: 100%;    
-    font-family: "Merriweather";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 33px;
-    line-height: 47px;
-
-    color: #2b2b2b;
+  .bkgImg {
+  }
+  .tTitle > h1 {
   }
 
   .tTitle > p {
-    width: 100%;   
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 32px;
-    color: #555555;
   }
 
-  .button > input {    
-    height: 50px;
-    width: 155px;
-    border-radius: 5px;
-    border: none;
-    background: #6c63ff;
-    /*text*/
-    border-radius: 5px;
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffffff;
-  }
-  
-  .bkgImg {    
-    
-    background-image: url("/img/imagem.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 0;
-    margin-top: 35px;
-    
-    
+  .button > input {
   }
 
   .main {
-    padding: 35px 20px;
-    display: block;
   }
 
   .card {
-    margin-bottom: 30px;
-    background: #ebeaea;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   }
 
   .cardTitle > h2 {
-    padding-left: 32px;
-    padding-top: 24px;
-    font-family: "Merriweather";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: #2b2b2b;
   }
   .cardTitle > p {
-    padding: 26px 32px;
-    height: 90px;
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    color: #555555;
   }
 
   .bkgRed {
-    height: 220px;
-    background: #ff6363;
   }
 
   .bkgCiano {
-    height: 220px;
-    background: #63ecff;
   }
 
   .bkgPurple {
-    height: 220px;
-    background: #f363ff;
   }
 
   .bkgGreen {
-    height: 220px;
-    background: #63ff73;
   }
 
   .bkgYellow {
-    height: 220px;
-    background: #ffdd63;
   }
 
   .bkgBlue {
-    height: 220px;
-    background: #6663ff;
   }
 
   .rodape {
-    background: #d7d5ff;
-    padding: 83px 20px;
   }
 
   .rodape > h1 {
-    padding-bottom: 36px;
-    font-family: "Merriweather";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-
-    color: #2b2b2b;
   }
 
   input {
-    padding-left: 12px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 60px;
-    background: #ffffff;
-    border-radius: 5px;
-    border: none;
-
-    /*text*/
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
   }
 
   .formText {
-    padding-left: 12px;
-    padding-top: 20px;
-    width: 100%;
-    height: 150px;
-    background: #ffffff;
-    border-radius: 5px;
-    border: none;
-
-    /* text */
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
   }
 
   .submit {
-    width: 100%;
-    margin-top: 45px;
-    height: 50px;
-    border: none;
-    background: #6c63ff;
-    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
-    border-radius: 5px;
-
-    /* text */
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
   }
 }
