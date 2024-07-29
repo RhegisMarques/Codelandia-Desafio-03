@@ -85,13 +85,15 @@ span {
   top: 643px;
   padding: 64px 0px;
   gap: 113px;
-  /* 
-  display: block; */
+  
 }
 
 .card-container {
   display: grid;
-  height: 2190px;
+    grid-template-columns: repeat(auto-fit, minmax(327px, auto));
+    grid-gap: 2rem;
+  cursor: pointer;
+    transition: all 0.35s;
   gap: 40px;
 }
 
@@ -109,11 +111,11 @@ span {
   gap: 32px;
 }
 
-.card {
-  width: 327px;
-  height: 327px;
+.card {border: 1px solid red;
+  
   border-radius: 8px;
   border: 2px;
+  
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.438);
 }
 
@@ -151,6 +153,7 @@ span {
   background-image: url("/img/image-1.png");
   background-repeat: no-repeat;
   background-size: contain;
+  
 }
 
 .card-2 {
