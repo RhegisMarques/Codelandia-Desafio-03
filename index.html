@@ -34,7 +34,7 @@
             dicas e tendências atuais.
           </p>
           
-          <div class="button">
+          <div class="button" id="button">
             <input type="button" value="Buscar artigos" />
           </div>
         </div>
@@ -42,13 +42,16 @@
       </div>
     </header>
 
-    <main class="main" id="main">
-      <div class="text-main">
+    <main class="main" id="main">      
+      <div class="rows">
+        <div class="text-main">
         <h2>Artigos recomendados</h2>
       </div>
       <div class="card-container">
         <div class="card">
-          <div class="card-1"></div>
+          <div class="card-1" id="card-edit">
+            <img src="./img/image-1.png" alt="" srcset="">
+          </div>
           <div class="card-title">
             <h2>O que é linguagem de programação? Conheça as princip...</h2>
             <p>
@@ -59,7 +62,8 @@
         </div>
 
         <div class="card">
-          <div class="card-2"></div>
+          <div class="card-2" id="card-edit">
+            <img src="./img/image-2.png" alt="" srcset=""></div>
           <div class="card-title">
             <h2>
               Python: por que a linguagem é tão usada para Data Science e
@@ -73,7 +77,9 @@
         </div>
 
         <div class="card">
-          <div class="card-3"></div>
+          <div class="card-3" id="card-edit">
+            <img src="./img/image-3.png" alt="" srcset="">
+          </div>
           <div class="card-title">
             <h2>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</h2>
             <p>
@@ -84,7 +90,9 @@
         </div>
 
         <div class="card">
-          <div class="card-4"></div>
+          <div class="card-4" id="card-edit">
+            <img src="./img/image-4.png" alt="" srcset="">
+          </div>
           <div class="card-title">
             <h2>15 comandos no GIT que os desenvolvedores precisam saber</h2>
             <p>
@@ -94,7 +102,9 @@
         </div>
 
         <div class="card">
-          <div class="card-5"></div>
+          <div class="card-5" id="card-edit">
+            <img src="./img/image-5.png" alt="" srcset="">
+          </div>
           <div class="card-title">
             <h2>GIT e GitHub: o que são e quais as diferenças entre eles?</h2>
             <p>
@@ -105,7 +115,9 @@
         </div>
 
         <div class="card">
-          <div class="card-6"></div>
+          <div class="card-6" id="card-edit">
+            <img src="./img/image-6.png" alt="" srcset="">
+          </div>
           <div class="card-title">
             <h2>
               GitHub Copilot ganha integração com GPT-4 e interface
@@ -116,17 +128,19 @@
             </p>
           </div>
         </div>
+        </div>
       </div>
     </main>
 
     <footer class="footer" id="footer">
+      <div class="container-footer">
       <div class="text-footer">        
         <h2>Entre em contato</h2>
       </div>
       <div class="form">
         <form action="" method="post">
           <input type="text" name="nome" placeholder="Nome" />
-          <input type="email" name="nome" placeholder="E-mail" />
+          <input type="email" name="nome" placeholder="Email" />
           <textarea
             class="formText"
             style="resize: none"
@@ -136,8 +150,11 @@
             rows="10"
             placeholder="Assunto da mensagem"
           ></textarea>
-          <input class="submit" type="submit" value="Entre em contato" />
+          <div class="button" id="button">
+            <input type="button" value="entrar em contato" />
+          </div>
         </form>
+      </div>
       </div>
     </footer>
   </body>
