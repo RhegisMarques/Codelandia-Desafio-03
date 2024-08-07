@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title></title>
-  </head>
 
-  <body>
-    <header class="header" id="header">
-      <div class="container">
-        <div class="bgImg"></div>
-        <div class="group">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="/img/illustra.png" />
+      <div class="group">
+        <div>
           <h1>
             Encontre os <span>melhores artigos</span> de programação em um só
             lugar
           </h1>
+        </div>
+        <div>
           <p>
             Explore o topo da programação em um só lugar! Seu destino único para
             dicas e tendências atuais.
           </p>
-          
-          <div class="button" id="button">
-            <input type="button" value="Buscar artigos" />
-          </div>
         </div>
-        
+        <div id="wrapper-btn-header">
+          <button class="button">Buscar artigos</button>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="main" id="main">      
-      <div class="rows">
-        <div class="text-main">
+  <main>
+    <div class="rows">
+      <div class="text-main">
         <h2>Artigos recomendados</h2>
       </div>
       <div class="card-container">
@@ -63,7 +64,8 @@
 
         <div class="card">
           <div class="card-2" id="card-edit">
-            <img src="./img/image-2.png" alt="" srcset=""></div>
+            <img src="./img/image-2.png" alt="" srcset="">
+          </div>
           <div class="card-title">
             <h2>
               Python: por que a linguagem é tão usada para Data Science e
@@ -128,34 +130,32 @@
             </p>
           </div>
         </div>
-        </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="footer" id="footer">
-      <div class="container-footer">
-      <div class="text-footer">        
+  <footer>
+    <form>
+      <div>
         <h2>Entre em contato</h2>
       </div>
-      <div class="form">
-        <form action="" method="post">
-          <input type="text" name="nome" placeholder="Nome" />
-          <input type="email" name="nome" placeholder="Email" />
-          <textarea
-            class="formText"
-            style="resize: none"
-            name="msg"
-            d=""
-            cols="30"
-            rows="10"
-            placeholder="Assunto da mensagem"
-          ></textarea>
-          <div class="button" id="button">
-            <input type="button" value="entrar em contato" />
-          </div>
-        </form>
+      <div>
+        <input type="text" name="nome" placeholder="Nome" />
       </div>
+
+      <div>
+        <input type="email" name="nome" placeholder="Email" />
       </div>
-    </footer>
-  </body>
+      <div>
+        <textarea style="resize: none" class="formText" name="msg" d="" cols="30" rows="10" placeholder="Assunto da mensagem"></textarea>
+      </div>
+      <div>
+        <button class="button">entrar em contato</button>
+      </div>
+    </form>
+
+
+  </footer>
+</body>
+
 </html>
