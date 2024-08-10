@@ -38,31 +38,32 @@ header {
   >div {
     width: 100%;
   }
+
+  h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: center;
+  }
+
+  span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: center;
+    color: #846aff;
+  }
+
+  .group p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
 }
 
-.group h1 {
-  font-family: Roboto;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28.8px;
-  text-align: center;
-}
-
-span {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28.8px;
-  text-align: center;
-  color: #846aff;
-}
-
-.group p {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-}
 
 button.button {
   width: 100%;
@@ -272,7 +273,7 @@ footer {
   }
 
   .group {
-    >div#wrapper-btn-header{
+    >div#wrapper-btn-header {
       place-content: left;
     }
   }
@@ -303,7 +304,7 @@ footer {
 
 
   main {
-    padding: 80px ;
+    padding: 80px;
   }
 
   .rows {
@@ -341,17 +342,17 @@ footer {
     height: 100%;
   }
 
-  form{
+  form {
     width: 592px;
-    
+
   }
 
-    h2 {
-      font-family: Roboto;
-      font-size: 32px;
-      font-weight: 600;
-      line-height: 37.5px;
-      text-align: center;
-    }
+  h2 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: center;
+  }
 
 }
